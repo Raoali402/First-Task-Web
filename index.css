@@ -1,0 +1,300 @@
+*{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    
+    
+    
+}
+
+.container{
+    
+    width: 100%;
+    height: auto;
+    background-color: #E9BAC3;
+    border-radius: 20px;
+    display: flex;
+    
+    
+}
+
+.right{
+    width: 30%;
+    height: auto;
+    background-color: #E9BAC3;
+    border-radius: 20px;
+    position: relative;
+}
+.image{
+    width: 30%;
+}
+
+.paragraph{
+    width: 90%;
+    margin-top: 20px !important;
+    
+    margin-left: 28px;
+    height: auto;
+}
+.image2{
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    left: 220px;
+    
+    
+}
+.image2 img{
+    width: 70%;
+    height: 400px;
+    
+}
+.image-second{
+    
+    width: 100%;
+    height: 200px;
+}
+
+.left{
+    
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 60px 20px 20px 60px;
+    
+}
+.image-logo{
+    width:50px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #E9BAC3;
+}
+.paragraph-style{
+    font-size: 24px;
+    color: white;
+    
+}
+.language{
+    float: right;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+}
+.select-language{
+    border: none;
+    color: rgb(175, 174, 174);
+}
+
+
+.login-form{
+ 
+ width: 50%;
+ height: auto;
+ margin: auto;
+ margin-top: 100px !important;
+}
+.button{
+    width: 100%;
+  
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+.button1{
+    width: 48%;
+    display: flex;
+    justify-content: center; 
+    border: 1px solid #A1A1A1;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    color:  #A1A1A1;
+    
+    
+}
+.button1 span{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.button2{
+    width: 48%;
+    display: flex;
+    justify-content: center; 
+    border: 1px solid #A1A1A1;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+    color:  #A1A1A1;
+    
+}
+.button2 span{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.or{
+    width: 10%;
+    margin: auto;
+    margin-top: 40px;
+    color:  #A1A1A1;
+}
+.input1{
+    width: 100%;
+    margin-top: 40px;
+}
+.inputfields{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #A1A1A1;
+    outline: none;
+    padding: 2px;
+    padding-bottom: 4px;
+}
+.input2{
+    width: 100%;
+    margin-top: 40px;
+}
+.input3{
+    width: 100%;
+    margin-top: 40px;
+}
+.create-button{
+    width: 100%;
+    margin-top: 40px;
+}
+.button3{
+    width: 100%;
+    background-color: #E74D66;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none !important;
+    
+}
+.footer{
+    margin-top: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: #2BA9E3
+}
+@media only screen and (min-width:1200px) and (max-width:1326px){
+    .image2{
+        left:220px;
+    }
+    
+}
+@media only screen and (min-width:1100px) and (max-width:1200px){
+    .image2{
+        left:200px;
+    }
+    .button{
+        width: 100%;
+    }
+    .button1{
+        width: 100%;
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1100px){
+    .image2{
+        left:180px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1000px){
+    .image2{
+        left:160px;
+    }
+}
+@media only screen and (min-width:800px) and (max-width:900px){
+    .image2{
+        left:140px;
+    }
+}
+@media only screen and (min-width:700px) and (max-width:800px){
+    .image2{
+        left:120px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:700px){
+    .image2{
+        left:100px;
+    }
+    .image2 img{
+        width: 80%;
+        height: 350px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:600px){
+    .image2{
+        left:80px;
+    }
+    .image2 img{
+        width: 70%;
+        height: 300px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:500px){
+    .image2{
+        left:60px;
+    }
+    .image2 img{
+        width: 60%;
+        height: 250px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:400px){
+    .container{
+    
+        width: 100%;
+        height: auto;
+        background-color: #E9BAC3;
+        border-radius: 20px;
+        display: block;
+    }
+    .right{
+        width: 100%;
+        height: auto;
+        background-color: #E9BAC3;
+        border-radius: 20px;
+    }
+    .left{
+    
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-radius: 60px 20px 20px 60px;
+        
+    }
+    .image2{
+        display: none;
+    }
+    .button{
+        flex-direction: column;
+        
+    }
+    .button1{
+        width: 100%;
+    }
+    .button2{
+        width: 100%;
+        margin-top:15px;
+    }
+    
+    
+}
+/* @media only screen and (min-width:500px) and (max-width:730px){
+    .image2 img{
+        width:50% ;
+        height: 200px;
+    }
+} */
